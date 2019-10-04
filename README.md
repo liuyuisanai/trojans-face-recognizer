@@ -1,8 +1,8 @@
 # 'Trojans' Face Recognizer
 
 This is the model and inference code for the paper ['Towards Flops-constrained Face Recognition'](https://arxiv.org/pdf/1909.00632.pdf), which win the 1st place in the [ICCV19 Lightweight Face Recognition Challenge](https://ibug.doc.ic.ac.uk/resources/lightweight-face-recognition-challenge-workshop/), large video track.
-The models we released only cover the two large tracks (deepglint-large and iQiyi-large) that we took participate in.
-More details about network design, training strategy and bag of tricks, please refer to our [workshop paper](https://arxiv.org/pdf/1909.00632.pdf).
+This repo only covers the two 30Gflops tracks (deepglint-large and iQiyi-large) that we took participate in.
+For more details such as network design, training strategy and bag of tricks, please refer to our [workshop paper](https://arxiv.org/pdf/1909.00632.pdf).
 
 ### Download code and models
  1. Using this [link](https://drive.google.com/open?id=1NhjPmPHkykrvxCCo3kz-ssPsv6ZaHhRp) to download the EfficientPolyFace and QAN++ models.
