@@ -1,6 +1,8 @@
 # 'Trojans' Face Recognizer
 
-This is the model and inference code for the paper ['Towards Flops-constrained Face Recognition'](https://arxiv.org/pdf/1909.00632.pdf), which win the 1st place in the [ICCV19 Lightweight Face Recognition Challenge](https://ibug.doc.ic.ac.uk/resources/lightweight-face-recognition-challenge-workshop/), large video track.
+**Update 10/31/2019** We upload the ```loss.py``` as our implementation of the original ```ArcFace``` and the proposed ```ArcNegFace```. Now you can use them to train the model and compare the results. If you use the ms1m-v3 provided by the LFR challenge, you would reproduce the reported results as listed in our paper.
+
+This is the model and code for the paper ['Towards Flops-constrained Face Recognition'](https://arxiv.org/pdf/1909.00632.pdf), which win the 1st place in the [ICCV19 Lightweight Face Recognition Challenge](https://ibug.doc.ic.ac.uk/resources/lightweight-face-recognition-challenge-workshop/), large video track.
 This repo only covers the two 30Gflops tracks (deepglint-large and iQiyi-large) that we took participate in.
 For more details such as network design, training strategy and bag of tricks, please refer to our [workshop paper](https://arxiv.org/pdf/1909.00632.pdf).
 
